@@ -28,6 +28,12 @@ send_matrix=false
 file_date_pattern="+%d-%m-%Y_%H.%M.%S"
 video_duration=10
 
+# Record from RTSP (RTSP server must be enabled)
+video_use_rtsp=false
+video_rtsp_w=1280
+video_rtsp_h=720
+video_rtsp_f=15
+
 # Snapshots
 save_snapshot=false
 save_snapshot_dir=/media/motion/snapshots
